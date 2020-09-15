@@ -1,4 +1,9 @@
-#write your code here
+counter = 0
 
-def countdown
+loop do
+  counter += 1
+  puts "#{counter} SECOND(S)!"
+  if counter >= 10
+    break
+  end
 end
